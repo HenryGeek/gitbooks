@@ -34,7 +34,11 @@
 -q后面跟着rpm包名,如果包存在RPM数据库里，那么打印该包名，不存在则显示未安装包
 
 ## 升级:  -U 或 -F
+    [root@bogon packages]# rpm -U nmap-ncat-6.40-7.el7.x86_64.rpm 
+    [root@bogon packages]# rpm -U nmap-ncat-6.40-7.el7.x86_64.rpm 
+	软件包 nmap-ncat-2:6.40-7.el7.x86_64 已经安装
 
+-U选项后面必须跟着rpm包的路径，如果存在旧版本的软件包，则直接升级，否则直接安装
 
 ## 校验:
 
