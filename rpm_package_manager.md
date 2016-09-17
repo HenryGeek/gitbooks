@@ -13,6 +13,10 @@
 
 -i选项后面必须跟着rpm包的路径,不然会报open错误
 
+安装过程中遇到的经典问题就是依赖不存在
+依赖不一定是rpm包,也可以是某个功能,依赖的东西术语叫做capacity
+
+
 ## 卸载: -e
 
     [root@bogon packages]# rpm -e nmap-ncat
