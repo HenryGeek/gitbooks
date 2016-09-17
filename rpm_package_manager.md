@@ -12,7 +12,13 @@
 
 ## 卸载: -e
 
- rpm -e rpm_package_name ...
+    [root@bogon packages]# rpm -e nmap-ncat
+    [root@bogon packages]# rpm -qa | grep nmap-ncat
+    [root@bogon packages]# rpm -e nmap-ncat
+    错误：未安装软件包 nmap-ncat 
+    [root@bogon packages]#
+
+如果要卸载的包不存在rpm数据库里，则会报错，存在就直接删除
 
 ## 查询:
 
