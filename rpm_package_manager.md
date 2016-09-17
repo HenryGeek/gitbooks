@@ -10,7 +10,7 @@
     nmap-ncat-6.40-7.el7.x86_64
     [root@bogon packages]#
 
-## 卸载:
+## 卸载: -e
 
  rpm -e rpm_package_name ...
 
