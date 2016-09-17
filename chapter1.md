@@ -1,1 +1,24 @@
-# First Chapter
+# rpm包管理
+
+## 安装:
+
+ rpm -i path_to_rpm_package ...
+
+## 卸载:
+
+ rpm -e rpm_package_name ...
+
+## 查询:
+
+ rpm -q
+
+## 升级:
+
+ rpm -U/-F path_to_rpm_package ...
+
+## 校验:
+
+ rpm -V rpm_package_name ...
+
+
+
