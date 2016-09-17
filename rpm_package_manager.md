@@ -1,6 +1,6 @@
 # rpm包管理
 
-## 安装:
+## 安装: -i
 
     [root@bogon packages]# rpm -qa | grep ncat
     [root@bogon packages]# ls
