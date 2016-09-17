@@ -11,7 +11,7 @@
     [root@bogon packages]# rpm -i nmap-ncat
     错误：打开 nmap-ncat 失败： 没有那个文件或目录
 
--i选项后面必须跟着rpm包的路径
+-i选项后面必须跟着rpm包的路径,不然会报open错误
 ## 卸载: -e
 
     [root@bogon packages]# rpm -e nmap-ncat
