@@ -31,8 +31,8 @@
     [root@bogon packages]# rpm -q nmap-ncat
     nmap-ncat-6.40-7.el7.x86_64
 
-
 -q后面跟着rpm包名,如果包存在RPM数据库里，那么打印该包名，不存在则显示未安装包
+
 ## 升级:
 
  rpm -U/-F path_to_rpm_package ...
