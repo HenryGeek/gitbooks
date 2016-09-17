@@ -46,7 +46,17 @@
 
 ## 校验: -V
 
- rpm -V rpm_package_name ...
+    [root@bogon packages]# rpm -i nmap-ncat-6.40-7.el7.x86_64.rpm 
+    [root@bogon packages]# rpm -V nmap-ncat
+    [root@bogon packages]# echo $?
+    0
+
+## 杂项
+1. -v/-vv/-vvv verbose模式
+2. 
+
+
+
 
 
 
