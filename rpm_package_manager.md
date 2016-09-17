@@ -8,7 +8,8 @@
     [root@bogon packages]# rpm -i nmap-ncat-6.40-7.el7.x86_64.rpm 
     [root@bogon packages]# rpm -qa | grep nmap-ncat
     nmap-ncat-6.40-7.el7.x86_64
-    [root@bogon packages]#
+    [root@bogon packages]# rpm -i nmap-ncat
+    错误：打开 nmap-ncat 失败： 没有那个文件或目录
 
 ## 卸载: -e
 
